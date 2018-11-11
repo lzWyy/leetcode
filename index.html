@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  const l1 = [2, 4, 3]
+  const l2 = [5, 6, 4]
+
+  var addTwoNumbers = function(l1, l2) {
+    let add = l1.reverse().join('') * 1 + l2.reverse().join('') * 1
+    return add.toString().split('').reverse().map((item) => {
+      return item * 1
+    })
+  }
+</script>
+</body>
+</html>
